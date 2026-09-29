@@ -1,0 +1,158 @@
+{
+  "cases": [
+    {
+      "title": "the missing diamond",
+      "type": "Theft",
+      "difficulty": "Easy",
+      "location": "G100105_01",
+      "description": "diamond theft in the absence of shopekeeper",
+      "status": "Solved",
+      "suspects": [
+        {
+          "id": 1789920581112,
+          "name": "Afra KT",
+          "age": "22",
+          "occupation": "house wife",
+          "relationship": "customer",
+          "motive": "lots of debts and EMI",
+          "alibi": "...",
+          "description": "...",
+          "suspicion": "Medium"
+        },
+        {
+          "id": 1789920628129,
+          "name": "john",
+          "age": "23",
+          "occupation": "business man",
+          "relationship": "business patner",
+          "motive": "Ego",
+          "alibi": "house",
+          "description": "...",
+          "suspicion": "Medium"
+        }
+      ],
+      "clues": [
+        {
+          "id": 1789920675751,
+          "title": "ladies perse",
+          "description": "...",
+          "type": "Physical",
+          "foundAt": "floor",
+          "importance": "Medium"
+        },
+        {
+          "id": 1789920717233,
+          "title": "ring",
+          "description": "...",
+          "type": "Physical",
+          "foundAt": "office",
+          "importance": "Medium"
+        }
+      ],
+      "evidence": [],
+      "witnesses": [],
+      "timeline": [],
+      "solution": {
+        "culpritId": "1789920628129",
+        "requiredClueIds": [
+          1789920717233
+        ],
+        "explanation": "john came to jwellery in the absence of shopekeeper and tell lie then theft the diamond"
+      },
+      "id": 1
+    },
+    {
+      "title": "the ask",
+      "type": "Theft",
+      "difficulty": "Easy",
+      "location": "vgdfgd",
+      "description": "fsdfdfs",
+      "status": "Draft",
+      "suspects": [
+        {
+          "id": 1790092612513,
+          "name": "Afra KT",
+          "age": "222",
+          "occupation": "fdsfdfds",
+          "relationship": "wwwwwwwwwwwwwww",
+          "motive": "wwwwwwwwwwwwwww",
+          "alibi": "qqqqqqqqqqqqqq",
+          "description": ".................",
+          "suspicion": "Medium"
+        }
+      ],
+      "clues": [],
+      "evidence": [],
+      "witnesses": [],
+      "timeline": [],
+      "solution": {
+        "culpritId": "",
+        "requiredClueIds": [],
+        "explanation": ""
+      },
+      "id": 2
+    },
+    {
+      "title": "found deadbody",
+      "type": "Murder",
+      "difficulty": "Medium",
+      "location": "under bridge",
+      "description": "the body has no head ",
+      "status": "Solved",
+      "suspects": [
+        {
+          "id": 1790097846323,
+          "name": "mathews",
+          "age": "33",
+          "occupation": "owns a chicken stall",
+          "relationship": "friend",
+          "motive": "ego",
+          "alibi": "home",
+          "description": "when the body found , he seems to be nervous",
+          "suspicion": "Medium"
+        },
+        {
+          "id": 1790098429378,
+          "name": "john basker",
+          "age": "22",
+          "occupation": "business",
+          "relationship": "nothing",
+          "motive": "psycho",
+          "alibi": "office",
+          "description": "his normal way of killing is to cut the head of victims",
+          "suspicion": "Medium"
+        }
+      ],
+      "clues": [
+        {
+          "id": 1790098868727,
+          "title": "saw a man",
+          "description": "a person saw a man who carry something heavy",
+          "type": "Witness",
+          "foundAt": "near bridge",
+          "importance": "Medium"
+        },
+        {
+          "id": 1790098969903,
+          "title": "postmortm",
+          "description": "found some micro bone particles of animal on the head part  of the victim",
+          "type": "Document",
+          "foundAt": "neck",
+          "importance": "Medium"
+        }
+      ],
+      "evidence": [],
+      "witnesses": [],
+      "timeline": [],
+      "solution": {
+        "culpritId": "1790097846323",
+        "requiredClueIds": [
+          1790098969903,
+          1790098868727
+        ],
+        "explanation": "culprit has ego on the victim on the basis of money .. so he decided to kill like john ...so everyone thinks that john was the murderer..but when the postmortm arrives we got the exact killer by the bone particles clue"
+      },
+      "id": 3
+    }
+  ]
+}
